@@ -1,12 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body{
     
     background-image: url(./img/fundo.jpg);
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
 }
-
-
+.container-fluid img {
+    width: 10%;
+}
+.navbar-text img {
+    width: 24%;
+}
 #carouselExample{
     display: flex;
     justify-content: center;
@@ -49,7 +57,6 @@ body{
     margin-left: 13.5%;
     
 }
-
 
 .card-ajuste{
     width: 20rem;
@@ -101,6 +108,13 @@ body{
 .info{
     z-index: 2;
     position: absolute;
+    background-color: rgba(128, 128, 128, 0.452);
+    border-radius: 10px;
+    width: 90%;
+    bottom: 76.3%;    
+    color: white;
+    text-align: center;
+    
 }
 
 @media only screen and (max-width: 800px){
@@ -114,4 +128,10 @@ body{
         margin-left: 13.5%;
     }
     
+
     }
+footer h1{
+    background-color: white;
+    bottom: 0%;
+
+}    
